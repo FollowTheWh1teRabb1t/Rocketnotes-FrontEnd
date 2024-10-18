@@ -20,6 +20,11 @@ export const Container = styled.div`
             color: ${({ theme }) => theme.COLORS.GRAY_100};
             font-size: 24px;
         }
+
+        button {
+            background: none;
+            border: none;
+        }
     }
 `
 
@@ -29,7 +34,7 @@ export const Form = styled.form`
 
     > div:nth-child(4) {
         margin-top: 24px;
-    }
+    }   
 
 `
 
